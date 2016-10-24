@@ -1,0 +1,42 @@
+﻿body{
+
+    font-size:xx-large;
+    margin-left:20px;
+}
+
+#chat{
+    position:absolute;
+    max-width:100%;
+    width:100%;
+    top:160px;
+    bottom:100px;
+    overflow-y:scroll;
+}
+
+
+
+#controls{
+    position:absolute;
+    top:800px;
+}
+#txtInput{
+
+    position:absolute;
+    bottom:40px;
+
+}
+
+.chatImage{
+    max-width:500px;
+}
+.input{
+    width:800px;
+}
+ul {
+  list-style-type: disc;
+  margin-left:10px;
+}
+
+li {
+  margin-left:30px;
+}

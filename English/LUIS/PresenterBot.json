@@ -1,0 +1,281 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "PresenterBot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "architecture"
+    },
+    {
+      "name": "cant_do_chart"
+    },
+    {
+      "name": "greetings"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "what_about_the_future"
+    },
+    {
+      "name": "what_are_bots"
+    },
+    {
+      "name": "what_is_your_opinion"
+    },
+    {
+      "name": "why_not_an_app"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [
+    {
+      "actionName": "greetings",
+      "intentName": "greetings",
+      "actionParameters": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "but you can't do a chart",
+      "intent": "cant_do_chart",
+      "entities": []
+    },
+    {
+      "text": "hey, you're live. are you there?",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "bots can't show charts",
+      "intent": "cant_do_chart",
+      "entities": []
+    },
+    {
+      "text": "and how do you describe them?",
+      "intent": "what_is_your_opinion",
+      "entities": []
+    },
+    {
+      "text": "but you can't show a chart, can you?",
+      "intent": "cant_do_chart",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "but... what's your opinion on this?",
+      "intent": "what_is_your_opinion",
+      "entities": []
+    },
+    {
+      "text": "so, what are bots?",
+      "intent": "what_are_bots",
+      "entities": []
+    },
+    {
+      "text": "how are people using bots?",
+      "intent": "what_are_bots",
+      "entities": []
+    },
+    {
+      "text": "what are bots?",
+      "intent": "what_are_bots",
+      "entities": []
+    },
+    {
+      "text": "but what do you think?",
+      "intent": "what_is_your_opinion",
+      "entities": []
+    },
+    {
+      "text": "can you explain what bots are?",
+      "intent": "what_are_bots",
+      "entities": []
+    },
+    {
+      "text": "but bots can't display charts!",
+      "intent": "cant_do_chart",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "yeah but bots can't do charts for example",
+      "intent": "cant_do_chart",
+      "entities": []
+    },
+    {
+      "text": "but how would you describe it?",
+      "intent": "what_is_your_opinion",
+      "entities": []
+    },
+    {
+      "text": "hey you're live",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "hey there",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "i'd like to understand what bots are",
+      "intent": "what_are_bots",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "but how do you see them?",
+      "intent": "what_is_your_opinion",
+      "entities": []
+    },
+    {
+      "text": "but bots can't use rich controls like charts",
+      "intent": "cant_do_chart",
+      "entities": []
+    },
+    {
+      "text": "what's your opinion?",
+      "intent": "what_is_your_opinion",
+      "entities": []
+    },
+    {
+      "text": "nonsense, bots won't show charts for example, you need apps for that",
+      "intent": "cant_do_chart",
+      "entities": []
+    },
+    {
+      "text": "define \"bots\"",
+      "intent": "what_are_bots",
+      "entities": []
+    },
+    {
+      "text": "hey bot, can you hear me?",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "hello!",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "but why not build an app then?",
+      "intent": "why_not_an_app",
+      "entities": []
+    },
+    {
+      "text": "but if that's the case, then why not just building apps like we always did?",
+      "intent": "why_not_an_app",
+      "entities": []
+    },
+    {
+      "text": "but then we should just build apps",
+      "intent": "why_not_an_app",
+      "entities": []
+    },
+    {
+      "text": "why not apps then?",
+      "intent": "why_not_an_app",
+      "entities": []
+    },
+    {
+      "text": "well, then we should build normal apps",
+      "intent": "why_not_an_app",
+      "entities": []
+    },
+    {
+      "text": "this sounds too much like apps, why not building them instead?",
+      "intent": "why_not_an_app",
+      "entities": []
+    },
+    {
+      "text": "so how's the future of app development looking like?",
+      "intent": "what_about_the_future",
+      "entities": []
+    },
+    {
+      "text": "so how will be the future of bots development?",
+      "intent": "what_about_the_future",
+      "entities": []
+    },
+    {
+      "text": "so what will happen in the future?",
+      "intent": "what_about_the_future",
+      "entities": []
+    },
+    {
+      "text": "if that's the case, how will the future of app development be?",
+      "intent": "what_about_the_future",
+      "entities": []
+    },
+    {
+      "text": "so how will be the future of bot canvas?",
+      "intent": "what_about_the_future",
+      "entities": []
+    },
+    {
+      "text": "what the future of bots looks like?",
+      "intent": "what_about_the_future",
+      "entities": []
+    },
+    {
+      "text": "but what do you think bots really are?",
+      "intent": "what_is_your_opinion",
+      "entities": []
+    },
+    {
+      "text": "so why not just building apps then?",
+      "intent": "why_not_an_app",
+      "entities": []
+    },
+    {
+      "text": "how are you built?",
+      "intent": "architecture",
+      "entities": []
+    },
+    {
+      "text": "what's your architecture?",
+      "intent": "architecture",
+      "entities": []
+    },
+    {
+      "text": "how do you work?",
+      "intent": "architecture",
+      "entities": []
+    },
+    {
+      "text": "can you explain your architecture?",
+      "intent": "architecture",
+      "entities": []
+    },
+    {
+      "text": "help me understand how you were built",
+      "intent": "architecture",
+      "entities": []
+    },
+    {
+      "text": "hi there yourself. so... tell me what are bots?",
+      "intent": "what_are_bots",
+      "entities": []
+    }
+  ]
+}
