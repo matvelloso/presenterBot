@@ -14,3 +14,5 @@ This was built for a presentation and demonstrates the use of:
 5-The use of Bing Speech API from the bot UI
 
 6-The use of custom, rich controls in the bot UI
+
+You can watch it working here: https://channel9.msdn.com/Series/Explain/Meet-the-presenter-bot-a-bot-that-presents-about-bots
