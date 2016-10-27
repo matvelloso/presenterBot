@@ -1,7 +1,7 @@
 ﻿declare var _murphy: any;
 
 class App {
-    private appSecret = "TODO: PUT_YOUR_DIRECTLINE_KEY_HERE";
+    private appSecret = "TODO: USE THE KEY FROM YOUR BOT FRAMEWORK CONFIGURATION FOR DIRECT LINE CHANNEL HERE";
     private client: DirectLine.Client;
     private txtInput: HTMLInputElement;
     private chatWindow: HTMLDivElement;

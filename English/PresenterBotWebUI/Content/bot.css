@@ -6,9 +6,9 @@
 
 #chat{
     position:absolute;
-    max-width:100%;
-    width:100%;
-    top:160px;
+    max-width:calc(100% - 8em);
+    width:calc(100% - 8em);
+    top:60px;
     bottom:100px;
     overflow-y:scroll;
 }
@@ -20,7 +20,7 @@
     top:800px;
 }
 #txtInput{
-
+    width:calc(100% - 8em);
     position:absolute;
     bottom:40px;
 
@@ -28,6 +28,7 @@
 
 .chatImage{
     max-width:500px;
+    max-height:300px;
 }
 .input{
     width:800px;
@@ -39,4 +40,11 @@ ul {
 
 li {
   margin-left:30px;
+}
+
+canvas{
+    display:block;
+    right:0px;
+    position:absolute;
+    margin-right:0px;
 }

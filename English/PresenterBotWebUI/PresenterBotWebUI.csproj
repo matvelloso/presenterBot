@@ -67,13 +67,14 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bot.css" />
-    <Content Include="Content\Music.mp3" />
+    <Content Include="Content\Music2.mp3" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\Bitmap1.png" />
     <Content Include="Images\loading.gif" />
     <Content Include="index.html" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\matspresenterbot - Web Deploy.pubxml" />
     <None Include="scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="scripts\imageorientation\load-image-exif-map.js" />
     <Content Include="scripts\imageorientation\load-image-exif.js" />

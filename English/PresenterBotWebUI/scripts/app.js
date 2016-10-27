@@ -1,6 +1,6 @@
 var App = (function () {
     function App() {
-        this.appSecret = "TODO: PUT_YOUR_DIRECTLINE_KEY_HERE";
+        this.appSecret = "TODO: USE THE KEY FROM YOUR BOT FRAMEWORK CONFIGURATION FOR DIRECT LINE CHANNEL HERE";
         this.renderingXMLCard = false;
     }
     App.prototype.run = function () {

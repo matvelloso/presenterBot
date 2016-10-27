@@ -23,7 +23,7 @@ namespace PresenterBot.Service
         public string Data { get; set; }
     }
 
-    [LuisModel("TODO:PUT YOUR LUIS MODEL ID HERE", "TOOD: PUT YOUR LUIS SUBSCRIPTION KEY HERE")]
+    [LuisModel("YOUR LUIS MODEL ID HERE", "YOUR LUIS SUBSCRIPTION ID HERE")]
     [Serializable]
     public class RootDialog : LuisDialog<object>
     {
@@ -149,7 +149,7 @@ namespace PresenterBot.Service
                 XDocument dialog = UIBuilder.CreateDialog();
                 var message = context.MakeMessage();
 
-                UIBuilder.AppendLabel(dialog, "Tell folks to come to the next presentation after this. I'll discuss about bots with the help of my assistant, Mat.");
+                UIBuilder.AppendLabel(dialog, "Tell folks to come to the next presentation after this. I'll discuss about bots with the help of my assistant, Mat in the conference room 122.");
                 UIBuilder.AppendLabel(dialog, "(don't tell him I said that)");
                 UIBuilder.AppendLabel(dialog, "But if you want to give people an overview of bots architecture, perhaps start here:");
                 UIBuilder.AppendLink(dialog, "https://aka.ms/botarchitecture");
