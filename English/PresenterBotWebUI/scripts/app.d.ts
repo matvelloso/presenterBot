@@ -14,6 +14,7 @@ declare class App {
     animateBot(animation: string, callback: () => void): void;
     showBotImage(url: string, callback: () => void): void;
     showBotIframe(url: string, callback: () => void): void;
+    showBotLink(link: string, callback: () => void): void;
     showBotText(text: string, callback: () => void): void;
     playMusic(url: string, callback: () => void): void;
     openBulletList(): void;

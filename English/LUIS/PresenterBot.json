@@ -14,6 +14,9 @@
       "name": "greetings"
     },
     {
+      "name": "guggs_greeting"
+    },
+    {
       "name": "None"
     },
     {
@@ -275,6 +278,66 @@
     {
       "text": "hi there yourself. so... tell me what are bots?",
       "intent": "what_are_bots",
+      "entities": []
+    },
+    {
+      "text": "bot what do you think?",
+      "intent": "what_is_your_opinion",
+      "entities": []
+    },
+    {
+      "text": "heya bot, this is guggs",
+      "intent": "guggs_greeting",
+      "entities": []
+    },
+    {
+      "text": "hey bot, guggs here",
+      "intent": "guggs_greeting",
+      "entities": []
+    },
+    {
+      "text": "hello presenter bot, my name is guggs",
+      "intent": "guggs_greeting",
+      "entities": []
+    },
+    {
+      "text": "god morning, guggs here",
+      "intent": "guggs_greeting",
+      "entities": []
+    },
+    {
+      "text": "hey, are you there? this is guggs",
+      "intent": "guggs_greeting",
+      "entities": []
+    },
+    {
+      "text": "howdy, this is guggs",
+      "intent": "guggs_greeting",
+      "entities": []
+    },
+    {
+      "text": "hey bot, how are ya? guggs here",
+      "intent": "guggs_greeting",
+      "entities": []
+    },
+    {
+      "text": "hey bot, how are ya?",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "hey bot",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "hello there!",
+      "intent": "greetings",
+      "entities": []
+    },
+    {
+      "text": "guggs here, hello there",
+      "intent": "guggs_greeting",
       "entities": []
     }
   ]

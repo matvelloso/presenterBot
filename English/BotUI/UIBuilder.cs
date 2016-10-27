@@ -13,8 +13,10 @@ namespace BotUI
             enter,
             shrug,
             thinking,
+            thinking_end,
             head_bump,
             got_it,
+            got_it_end,
             point_up,
             cheer,
             smile,
@@ -24,6 +26,7 @@ namespace BotUI
             spin_around,
             fist_pump,
             dance,
+            dance_end,
             antenna_glow,
             wave_flag,
             wave_flag_end
@@ -62,6 +65,13 @@ namespace BotUI
             XElement labelElement = new XElement("label");
             labelElement.Value = label;
             document.Root.Add(labelElement);
+        }
+
+        public static void AppendLink(XDocument document, string link)
+        {
+            XElement linkElement = new XElement("link");
+            linkElement.Value = link;
+            document.Root.Add(linkElement);
         }
         public static void AppendCalendar(XDocument document, DateTime date)
         {

@@ -50,7 +50,7 @@ namespace BingTTS {
             // Note: The way to get api key:
             // Free: https://www.microsoft.com/cognitive-services/en-us/subscriptions?productId=/products/Bing.Speech.Preview
             // Paid: https://portal.azure.com/#create/Microsoft.CognitiveServices/apitype/Bing.Speech/pricingtier/S0
-            var apiKey = "YOUR_BING_SPEECH_API_KEY";
+            var apiKey = "TODO: PUT_YOUR_BING_SPEECH_API_KEY_HERE";
             var post_data = "";
 
             var AccessTokenUri = "https://api.cognitive.microsoft.com/sts/v1.0/issueToken";

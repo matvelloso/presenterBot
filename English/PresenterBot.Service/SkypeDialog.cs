@@ -29,7 +29,7 @@ namespace PresenterBot.Service
             if (message.Text == null) //Invoked when resuming the conversation, so it starts the knock knock joke
             {
                 bool waitingForSkype=false;
-                               context.UserData.TryGetValue<bool>("waitingForSkype", out waitingForSkype);
+                context.UserData.TryGetValue<bool>("waitingForSkype", out waitingForSkype);
                 if (!waitingForSkype)
                 {
                     context.UserData.SetValue<bool>("waitingForSkype", true);

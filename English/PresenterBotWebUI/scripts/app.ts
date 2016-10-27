@@ -1,7 +1,7 @@
 ﻿declare var _murphy: any;
 
 class App {
-    private appSecret = "YOUR_DIRECTLINE_APP_SECRET";
+    private appSecret = "TODO: PUT_YOUR_DIRECTLINE_KEY_HERE";
     private client: DirectLine.Client;
     private txtInput: HTMLInputElement;
     private chatWindow: HTMLDivElement;
@@ -57,6 +57,12 @@ class App {
                 switch (elementType) {
                     case "label":
                         this.showBotText(element.childNodes[0].nodeValue, () => {
+                            count++;
+                            render(card, count);
+                        });
+                        break;
+                    case "link":
+                        this.showBotLink(element.childNodes[0].nodeValue, () => {
                             count++;
                             render(card, count);
                         });
@@ -117,6 +123,9 @@ class App {
                 _murphy.reset("leave");
                 _murphy.play("Murphy thinking");
                 break;
+            case "thinking_end":
+                _murphy.reset("Murphy thinking");
+                break;
             case "enter":
                 _murphy.reset("leave");
                 break;
@@ -129,8 +138,10 @@ class App {
                 _murphy.play("Head bump");
                 break;
             case "got_it":
-                _murphy.reset("leave");
                 _murphy.play("Murphy got it");
+                break;
+            case "got_it_end":
+                _murphy.reset("Murphy got it");
                 break;
             case "smile":
                 _murphy.reset("leave");
@@ -140,7 +151,13 @@ class App {
                 _murphy.reset("smile");
                 break;
             case "frown":
-                _murphy.reset("frown");
+                _murphy.play("frown");
+                break;
+            case "dance":
+                _murphy.play("dance");
+                break;
+            case "dance_end":
+                _murphy.reset("dance");
                 break;
             case "frown_end":
                 _murphy.reset("frown");
@@ -186,6 +203,20 @@ class App {
         }, 0);
     }
 
+    public showBotLink(link: string, callback: () => void): void {
+        setTimeout(() => {
+            var div = document.createElement("div");
+            var href = document.createElement("a");
+            href.href = link;
+            href.innerText = link;
+            div.innerHTML = '<b>presenterbot:</b> ';
+            div.appendChild(href);
+            div.innerHTML+="<br/>";
+            this.chatWindow.appendChild(div);
+            this.scrollToBottom();
+            callback();
+        }, 0);
+    }
     public showBotText(text: string, callback: () => void): void{
         setTimeout(() => {
             var div = document.createElement("div");
