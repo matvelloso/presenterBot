@@ -20,10 +20,15 @@ You can watch it working here: https://channel9.msdn.com/Series/Explain/Meet-the
 Setting it up:
 
 There are a few steps you need to follow so you can run it:
+
 1-You need to setup your own LUIS model (and import the LUIS model that it's in there). All of that is done at www.luis.ai
+
 2-Then setup the LUIS keys in the web service so it can reach out to LUIS. 
+
 3-You need to deploy the web service and register it in bot framework, then get the key, secret and bot id you get there and put in the web.config (remember you will likely need to deploy it again after that). 
+
 4-You need to enable direct line in the bot framework portal, get the keys and use them in the web client. 
+
 5-You also need to enable a Bing Speech API subscription and use those subscription keys on the client as well (in the bing speech client typescript file). 
 
 So basically most of the setup work involves getting yourself keys, registering your bot and then running it.
