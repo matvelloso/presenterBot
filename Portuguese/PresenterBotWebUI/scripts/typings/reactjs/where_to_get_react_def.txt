@@ -1,0 +1,2 @@
+﻿Thge nuget package is not currect so these files are taken directly from the repo
+https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/react

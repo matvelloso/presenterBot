@@ -1,0 +1,301 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "PresenterBot",
+  "desc": "",
+  "culture": "pt-br",
+  "intents": [
+    {
+      "name": "arquitetura"
+    },
+    {
+      "name": "nao_pode_grafico"
+    },
+    {
+      "name": "saudar"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "e_quanto_ao_futuro"
+    },
+    {
+      "name": "que_sao_bots"
+    },
+    {
+      "name": "qual_sua_opiniao"
+    },
+    {
+      "name": "por_que_nao_app"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [
+    {
+      "actionName": "saudar",
+      "intentName": "saudar",
+      "actionParameters": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "mas você não consegue fazer gráficos",
+      "intent": "nao_pode_grafico",
+      "entities": []
+    },
+    {
+      "text": "ei, você está ao vivo. você está aí?",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "bots não conseguem mostrar gráficos",
+      "intent": "nao_pode_grafico",
+      "entities": []
+    },
+    {
+      "text": "e como você descreveria?",
+      "intent": "qual_sua_opiniao",
+      "entities": []
+    },
+    {
+      "text": "mas você não pode mostrar um gráfico, pode?",
+      "intent": "nao_pode_grafico",
+      "entities": []
+    },
+    {
+      "text": "bom dia",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "mas... qual sua opinião sobre isso?",
+      "intent": "qual_sua_opiniao",
+      "entities": []
+    },
+    {
+      "text": "então, o que são bots?",
+      "intent": "que_sao_bots",
+      "entities": []
+    },
+    {
+      "text": "como as pessoas estão usando bots?",
+      "intent": "que_sao_bots",
+      "entities": []
+    },
+    {
+      "text": "que são os bots?",
+      "intent": "que_sao_bots",
+      "entities": []
+    },
+    {
+      "text": "mas o que você acha?",
+      "intent": "qual_sua_opiniao",
+      "entities": []
+    },
+    {
+      "text": "você pode nos dizer o que são bots?",
+      "intent": "que_sao_bots",
+      "entities": []
+    },
+    {
+      "text": "mas bots não conseguem exibir gráficos!",
+      "intent": "nao_pode_grafico",
+      "entities": []
+    },
+    {
+      "text": "oi",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "sei, mas bots não conseguem mostrar coisas mais avançadas, como gráficos por exemplo",
+      "intent": "nao_pode_grafico",
+      "entities": []
+    },
+    {
+      "text": "mas como você os define?",
+      "intent": "qual_sua_opiniao",
+      "entities": []
+    },
+    {
+      "text": "ei, você está online e estamos todos aqui",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "e aí! tudo bem?",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "eu queria entender melhor o que são esses bots",
+      "intent": "que_sao_bots",
+      "entities": []
+    },
+    {
+      "text": "boa tarde",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "mas como você os vê?",
+      "intent": "qual_sua_opiniao",
+      "entities": []
+    },
+    {
+      "text": "mas eu não acho que bots consigam oferecer interfaces gráficas avançadas. por exemplo, gráficos não funcionam em bots",
+      "intent": "nao_pode_grafico",
+      "entities": []
+    },
+    {
+      "text": "qual a sua opinião?",
+      "intent": "qual_sua_opiniao",
+      "entities": []
+    },
+    {
+      "text": "bobagem, bots nunca vão conseguir exibir gráficos por exemplo, somente apps podem fazer isso",
+      "intent": "nao_pode_grafico",
+      "entities": []
+    },
+    {
+      "text": "defina \"bots\"",
+      "intent": "que_sao_bots",
+      "entities": []
+    },
+    {
+      "text": "ei bot, você consegue me ouvir?",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "alô!",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "mas por que não construir uma app em vez disso?",
+      "intent": "por_que_nao_app",
+      "entities": []
+    },
+    {
+      "text": "mas se é esse o caso, não é melhor simplesmente criar apps?",
+      "intent": "por_que_nao_app",
+      "entities": []
+    },
+    {
+      "text": "mas então nós deveríamos criar apps para isso",
+      "intent": "por_que_nao_app",
+      "entities": []
+    },
+    {
+      "text": "por que não criar uma app então?",
+      "intent": "por_que_nao_app",
+      "entities": []
+    },
+    {
+      "text": "bom, então nós deveríamos construir apps normais",
+      "intent": "por_que_nao_app",
+      "entities": []
+    },
+    {
+      "text": "isso paree muito com apps, pra que reinventar a roda?", 
+      "intent": "por_que_nao_app",
+      "entities": []
+    },
+    {
+      "text": "então como vai ser o futuro do desenvolvimento de apps e bots?",
+      "intent": "e_quanto_ao_futuro",
+      "entities": []
+    },
+    {
+      "text": "me diga então: qual o futuro dos bots?",
+      "intent": "e_quanto_ao_futuro",
+      "entities": []
+    },
+    {
+      "text": "o que vao acontecer no futuro?",
+      "intent": "e_quanto_ao_futuro",
+      "entities": []
+    },
+    {
+      "text": "se é esse o caso, isso vai mudar mais pra frente?",
+      "intent": "e_quanto_ao_futuro",
+      "entities": []
+    },
+    {
+      "text": "então qual o futuro dessas interfaces gráficas?",
+      "intent": "e_quanto_ao_futuro",
+      "entities": []
+    },
+    {
+      "text": "como você acha que vão ser as apps em alguns anos?",
+      "intent": "e_quanto_ao_futuro",
+      "entities": []
+    },
+    {
+      "text": "mas o que você acha que os bots realmente são?",
+      "intent": "qual_sua_opiniao",
+      "entities": []
+    },
+    {
+      "text": "então por que não codificar apps em vez de bots?",
+      "intent": "por_que_nao_app",
+      "entities": []
+    },
+    {
+      "text": "como você foi construído?",
+      "intent": "arquitetura",
+      "entities": []
+    },
+    {
+      "text": "qual a sua arquitetura?",
+      "intent": "arquitetura",
+      "entities": []
+    },
+    {
+      "text": "como você funciona?",
+      "intent": "arquitetura",
+      "entities": []
+    },
+    {
+      "text": "você pode nos expicar a sua arquiteetura?",
+      "intent": "arquitetura",
+      "entities": []
+    },
+    {
+      "text": "me ajude a entender como você foi construído",
+      "intent": "arquitetura",
+      "entities": []
+    },
+    {
+      "text": "olá! então... me diga o que são bots?",
+      "intent": "que_sao_bots",
+      "entities": []
+    },
+    {
+      "text": "bot, o que você pensa?",
+      "intent": "qual_sua_opiniao",
+      "entities": []
+    },
+    {
+      "text": "olá bot, e aê!",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "beleza, bot?",
+      "intent": "saudar",
+      "entities": []
+    },
+    {
+      "text": "tudo bem?",
+      "intent": "saudar",
+      "entities": []
+    }
+  ]
+}

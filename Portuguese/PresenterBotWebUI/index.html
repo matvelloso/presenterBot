@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script src="./scripts/jquery-2.2.3.js"></script>
+    <script src="./scripts/jquery.cookie.js"></script>
+    <script src="./scripts/jquery.validate.min.js"></script>
+    <script src="./scripts/modernizr-2.8.3.js"></script>
+    <script src="./scripts/bootstrap.js"></script>
+    <script src="./scripts/respond.js"></script>
+    <script src="https://code.createjs.com/createjs-2015.11.26.combined.js"></script>
+    <script src="https://presenterbot.blob.core.windows.net/images/murphy.js"></script>
+    <script src="./scripts/react/react.js"></script>
+    <script src="./scripts/react/react-dom.js"></script>
+    <script src="./scripts/imageorientation/load-image.combined.js"></script>
+    <script src="https://presenterbot.blob.core.windows.net/images/MurphyApp.js"></script>
+
+    <script src="scripts/directLine.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/BingTTSClient.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bot.css" rel="stylesheet" />
+
+    <div id="murphyView"></div>
+
+    <div id="chat"></div>
+    <br />
+    <input type="text" id="txtInput" class="input" />
+
+    <div id="controls">
+    </div>
+
+    <script type="text/javascript">
+        var _murphy;
+
+        function init() {
+            CreateMurphyView($('#murphyView')[0], function (murphy) {
+                _murphy = murphy;
+                murphy.reset("leave");
+                CreateHelperUI($('#controls')[0], null, _murphy);
+            });
+        }
+
+        $(document).ready(init);
+    </script>
+
+
+</body>
+</html>
