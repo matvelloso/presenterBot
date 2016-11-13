@@ -32,3 +32,9 @@ There are a few steps you need to follow so you can run it:
 5-You also need to enable a Bing Speech API subscription and use those subscription keys on the client as well (in the bing speech client typescript file). 
 
 So basically most of the setup work involves getting yourself keys, registering your bot and then running it.
+
+
+The sample uses the Microsoft Cognitive Services, see https://www.microsoft.com/cognitive-services/. Developers using this are expected to follow the “Developer Code of Conduct for Microsoft Cognitive Services” at http://go.microsoft.com/fwlink/?LinkId=698895.
+
+
+Data submitted may be retained by Microsoft for service improvement purposes, along with the other stipulations noted in the following documents: Cognitive Services TOU, Developer Code of Conduct
