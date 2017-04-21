@@ -283,7 +283,7 @@ class App {
         if (count < messages.messages.length) {
             // REEMPLAZAR presenterBot con el ID de su bot
             var from = (messages.messages[count].from == "presenterBot") ? "presenterBot" : "me";
-            if (from == "swbot") {
+            if (from == "presenterBot") {
                 if (messages.messages[count].text == "Custom Data") {
                     var parsedData = new DOMParser().parseFromString(<string>(messages.messages[count].channelData.data), "text/xml");
                     this.renderXMLCard(parsedData);
